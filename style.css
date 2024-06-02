@@ -1,40 +1,47 @@
-#footnote {
-    position: fixed;
-    bottom: 0%;
-    background-color: aqua;
-    width: 100%;
+body
+{
+    background: #cfcece;
 }
-
-body {
-    background-color: aliceblue;
-}
-
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-}
-
-h4 {
+h1{
+    font-family: cursive;
     font-style: italic;
     font-weight: bold;
 }
 
-#camera {
-    width: 500;
-    height: 400;
+h4
+{
+    color:red;
 }
 
-img {
-    border-radius: 5%;
-    padding: 1%;
+#camera
+{
+    width: 500px;
+    height: 400px;
+    border:1px solid rgb(87, 2, 2);
+}
+
+img
+{
+    width: 37%;
+    border-radius: 4px;
+    padding: 10px;
     box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
 }
 
-.column {
+.column
+{
     display: inline;
+    padding: 10px;
 }
-
-img:hover {
+img:hover{
     border-radius: 140px;
 }
+.copy_right_footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+ }
